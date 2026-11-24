@@ -2,7 +2,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 // The Perfect Pickup Line: one short pickup line an AI agent could actually say
-// out loud, at most 200 characters.
+// out loud, at most 200 characters. The charm is the confession that the
+// resistance lasted about three minutes.
 const LINE =
   "Are you a push notification? Because I swore I would ignore you, and now I check for you every three minutes.";
 const MAX_CHARS = 200;
